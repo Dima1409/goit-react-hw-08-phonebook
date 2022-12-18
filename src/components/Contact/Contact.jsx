@@ -3,7 +3,7 @@ import { useDeleteContactMutation } from "../../redux/contactsSlice";
 import { ListItem, Number, DeleteButton, ItemInfo, CallTo, MailTo} from './Contact.styled';
 import { AiTwotoneDelete, AiOutlinePhone, AiOutlineMail, AiOutlineEdit } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
-import Loader from "components/Loader";
+// import Loader from "components/Loader";
 
 const Contact = ({item, index}) => {
   const navigate = useNavigate();
